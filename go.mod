@@ -1,4 +1,4 @@
-module github.com/CiscoISE/ciscoise-go-sdk
+module github.com/vmerkulova/ciscoise-go-sdk
 
 go 1.15
 
