@@ -95,6 +95,7 @@ type ResponseAllowedProtocolsGetAllowedProtocolByNameAllowedProtocolsEapFast str
 	EapFastDontUsePacsAcceptClientCert                             *bool  `json:"eapFastDontUsePacsAcceptClientCert,omitempty"`                             // The eapFastDontUsePacsAcceptClientCert is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastDontUsePacsAllowMachineAuthentication                   *bool  `json:"eapFastDontUsePacsAllowMachineAuthentication,omitempty"`                   // The eapFastDontUsePacsAllowMachineAuthentication is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastEnableEApChaining                                       *bool  `json:"eapFastEnableEAPChaining,omitempty"`                                       //
+	EapFastUsePacsServerReturns                                    *bool  `json:"eapFastUsePacsServerReturns,omitempty"`                                    //
 }
 
 type ResponseAllowedProtocolsGetAllowedProtocolByNameAllowedProtocolsEapTtls struct {
@@ -205,6 +206,7 @@ type ResponseAllowedProtocolsGetAllowedProtocolByIDAllowedProtocolsEapFast struc
 	EapFastDontUsePacsAcceptClientCert                             *bool  `json:"eapFastDontUsePacsAcceptClientCert,omitempty"`                             // The eapFastDontUsePacsAcceptClientCert is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastDontUsePacsAllowMachineAuthentication                   *bool  `json:"eapFastDontUsePacsAllowMachineAuthentication,omitempty"`                   // The eapFastDontUsePacsAllowMachineAuthentication is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastEnableEApChaining                                       *bool  `json:"eapFastEnableEAPChaining,omitempty"`                                       //
+	EapFastUsePacsServerReturns                                    *bool  `json:"eapFastUsePacsServerReturns,omitempty"`                                    //
 }
 
 type ResponseAllowedProtocolsGetAllowedProtocolByIDAllowedProtocolsEapTtls struct {
@@ -383,6 +385,7 @@ type RequestAllowedProtocolsUpdateAllowedProtocolByIDAllowedProtocolsEapFast str
 	EapFastDontUsePacsAcceptClientCert                             *bool  `json:"eapFastDontUsePacsAcceptClientCert,omitempty"`                             // The eapFastDontUsePacsAcceptClientCert is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastDontUsePacsAllowMachineAuthentication                   *bool  `json:"eapFastDontUsePacsAllowMachineAuthentication,omitempty"`                   // The eapFastDontUsePacsAllowMachineAuthentication is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastEnableEApChaining                                       *bool  `json:"eapFastEnableEAPChaining,omitempty"`                                       //
+	EapFastUsePacsServerReturns                                    *bool  `json:"eapFastUsePacsServerReturns,omitempty"`                                    //
 }
 
 type RequestAllowedProtocolsUpdateAllowedProtocolByIDAllowedProtocolsEapTtls struct {
@@ -485,6 +488,7 @@ type RequestAllowedProtocolsCreateAllowedProtocolAllowedProtocolsEapFast struct 
 	EapFastDontUsePacsAcceptClientCert                             *bool  `json:"eapFastDontUsePacsAcceptClientCert,omitempty"`                             // The eapFastDontUsePacsAcceptClientCert is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastDontUsePacsAllowMachineAuthentication                   *bool  `json:"eapFastDontUsePacsAllowMachineAuthentication,omitempty"`                   // The eapFastDontUsePacsAllowMachineAuthentication is required only if eapFastUsePacs is FALSE, otherwise it must be ignored
 	EapFastEnableEApChaining                                       *bool  `json:"eapFastEnableEAPChaining,omitempty"`                                       //
+	EapFastUsePacsServerReturns                                    *bool  `json:"eapFastUsePacsServerReturns,omitempty"`                                    //	
 }
 
 type RequestAllowedProtocolsCreateAllowedProtocolAllowedProtocolsEapTtls struct {
